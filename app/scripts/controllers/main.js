@@ -11,7 +11,7 @@ angular.module('yeomanTutorialApp')
   .controller('MainCtrl', function ($scope) {
 	  
 	  
-    $scope.todos = ['Item 1', 'Item 2', 'Item 3', 'Item 4'];
+    $scope.todos = ['Todo: Make more todos!'];
 	
 	$scope.addTodo = function () {
 	  $scope.todos.push($scope.todo);
